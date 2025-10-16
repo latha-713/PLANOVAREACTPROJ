@@ -5,7 +5,7 @@ export default function Taskform({addTask}) {
     const[priority, setPriority] = useState('medium');
     const[category, setCategory] = useState('general');
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
         e.preventDefault(); //refresh
         addTask({text: task, priority,category, completed: false})
 

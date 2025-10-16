@@ -17,6 +17,7 @@ export default function App() {
       }
 
   return(
+
     <div>
       <h1>PLANOVA</h1>
       <p>Our friendly TaskManager</p>
@@ -24,6 +25,7 @@ export default function App() {
       <Tasklist />
       <Progresstracker />
       <button>Clear all tasks</button>
+
     </div>
   )
 }
