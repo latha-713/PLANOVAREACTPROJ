@@ -26,18 +26,24 @@ export default function App() {
       setTasks(tasks.filter((_, i) => i != index));
   }
 
+  const clearTasks = () => {
+     setTasks([]);
+  }
+
   return(
     
-    <div>
-      <h1>Task Focus</h1>
-      <p>Our friendly TaskManager</p>
+    <div className="App">
+      <header>
+             <h1 className="titile"> PLANOVA </h1>
+      <p className="tagline">Our friendly TaskManager</p>
+      </header> 
       <Taskform addTask = {addTask}/>
       <TaskList tasks = {tasks} 
       updateTask = {updateTask}
       deleteTask = {deleteTask}/>
-      <Progresstracker />
-      <button>Clear all tasks</button>
-
+      <Progresstracker tasks = {tasks} />
+      {tasks.length>0 && ( <button onClick={clearTasks} className="clear-btn">Clear all tasks</button>)}
+     
     </div>
   )
 }
