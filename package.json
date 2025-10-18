@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://latha-713.github.io/planova",
+  "homepage": "https://latha-713.github.io/PLANOVAREACTPROJ",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
