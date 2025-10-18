@@ -15,21 +15,27 @@ html, body {
 .App {
   max-width: 720px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 150px;
+  text-align: center;
 }
 
 header {
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 }
 
 header h1 {
-  margin: 0 0 4px 0;
-  font-size: 28px;
+  margin: 0 0 5px 0;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: wavy;
+  color: rgb(51, 32, 195);
 }
 
 header p {
-  margin: 0;
-  color: #555;
+  margin: 5;
+  color: #482d02;
+  text-align: center;
+  font-style: normal;
 }
 
 .task-form {
@@ -55,12 +61,12 @@ header p {
   border: 0;
   outline: 0;
   background: transparent;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 #inp button {
   border: 0;
-  background: #111111;
+  background: #2687bb;
   color: #ffffff;
   padding: 8px 12px;
   border-radius: 6px;
@@ -76,7 +82,7 @@ header p {
   padding: 8px 10px;
   border: 1px solid #e5e7eb;
   border-radius: 6px;
-  background: #ffffff;
+  background: #bedf76;
 }
 
 .task-list {
@@ -93,7 +99,7 @@ header p {
   padding: 12px;
   border: 1px solid #eeeeee;
   border-radius: 8px;
-  background: #ffffff;
+  background: #91dde3;
 }
 
 .task-list li.completed {
